@@ -1,0 +1,16 @@
+class squar{
+      public int add(int a)
+	  {
+	  return a*a;
+	  }
+}
+
+class test{
+    public static void main(String args[])
+	{
+	int a;
+	a=3;
+	squar obj = new squar();
+	System.out.println("The Suqare of "+a + "is " + obj.add(a));
+	}
+}
